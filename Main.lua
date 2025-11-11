@@ -14,13 +14,13 @@
     Written by @depso
     MIT License
     
-    https://github.com/depthso
+    https://github.com/Ihaveash0rtname
 ]]
 
 --// File handling configuration 
 local FilesConfig = {
 	UseWorkspace = false,
-	RepoUrl = "https://raw.githubusercontent.com/depthso/Sigma-Spy/refs/heads/main" -- "http://127.0.0.1:3000"
+	RepoUrl = "https://raw.githubusercontent.com/Ihaveash0rtname/Sigma-Spy/refs/heads/main" -- "http://127.0.0.1:3000"
 }
 
 --// Service handlers
@@ -123,7 +123,7 @@ end)
 Ui:ShowModal({
 	"<b>Attention!</b>",
 	"Sigma Spy is in BETA, please expect issues\n",
-	"Report any issues to the Github page (depthso/Sigma-Spy)\n",
+	"Report any issues to the Github page (Ihaveash0rtname/Sigma-Spy)\n",
 	"Many thanks!"
 })
 
@@ -155,4 +155,5 @@ for _, Service in next, game:GetChildren() do
 end
 
 --// Begin the Log queue service
+
 Ui:BeginLogService()
